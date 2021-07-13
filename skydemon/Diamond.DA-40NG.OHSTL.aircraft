@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft AirframeType="Aeroplane" MinimumRunwayLengthMetres="600" Name="Diamond DA-40NG" Registration="OH-STL" HexCode="" FuelType="JetA" AlternateFuelType="MoDiesel" FuelMeasurementType="Volume" FuelMeasurementVolumeType="USGallons" FuelMeasurementMassType="Kilograms" TaxiFuel="8.000000" LandingFuel="5.000000" MaxFuel="152.000000" WeightBalanceType="Standard" EmptyWeight="909.400000" MaximumWeight="1054.602200" EmptyArmLon="2.43" EmptyArmLat="0.00" Type="DA40" ColourMarkings="WHITE WITH BLUE STRIPES" ServiceCeiling="16400" Equipment1="DGLOVYR" Equipment2="S" OtherCommsEquipment="" OtherNavEquipment="" PbnEquipment="B2S1" FuelContingency="0.05" HoldingMinutes="45" HourlyCost="222" HourlyCostIncludesFuel="True" GlideAirspeed="88.00" GlideRatio="8.70" DefaultLevel="4000" Envelope="2.40,940.000000,2.40,1080.000000,2.46,1280.000000,2.53,1280.000000,2.53,940.000000">
+  <ClimbProfile FpmSL="675.000000" FpmSC="630.000000" IndicatedAirspeed="88.000000" FuelBurnSL="31.418918" FuelBurnSC="31.418918" />
+  <DescentProfile Fpm="-1000.000000" IndicatedAirspeed="140.000000" FuelBurn="24.983718" />
+  <CruiseProfiles>
+    <CruiseProfile Name="75%" AirspeedType="True" FuelBurn="24.983718" IndicatedAirspeed="125.000000" Airspeed="125.000000">
+      <Entry Level="2000" Airspeed="125.000000" FuelBurn="24.983718" />
+      <Entry Level="4000" Airspeed="127.000000" FuelBurn="24.983718" />
+      <Entry Level="6000" Airspeed="129.000000" FuelBurn="24.983718" />
+      <Entry Level="8000" Airspeed="131.000000" FuelBurn="24.983718" />
+      <Entry Level="10000" Airspeed="134.000000" FuelBurn="24.983718" />
+      <Entry Level="12000" Airspeed="136.000000" FuelBurn="24.983718" />
+      <Entry Level="14000" Airspeed="141.000000" FuelBurn="24.983718" />
+      <Entry Level="14000" Airspeed="138.000000" FuelBurn="24.983718" />
+    </CruiseProfile>
+    <CruiseProfile Name="60%" AirspeedType="True" FuelBurn="19.305600" IndicatedAirspeed="113.000000" Airspeed="113.000000">
+      <Entry Level="2000" Airspeed="113.000000" FuelBurn="19.305600" />
+      <Entry Level="4000" Airspeed="114.000000" FuelBurn="19.305600" />
+      <Entry Level="6000" Airspeed="116.000000" FuelBurn="19.305600" />
+      <Entry Level="8000" Airspeed="118.000000" FuelBurn="19.305600" />
+      <Entry Level="10000" Airspeed="120.000000" FuelBurn="19.305600" />
+      <Entry Level="12000" Airspeed="122.000000" FuelBurn="19.305600" />
+      <Entry Level="14000" Airspeed="124.000000" FuelBurn="19.305600" />
+      <Entry Level="16000" Airspeed="126.000000" FuelBurn="19.305600" />
+    </CruiseProfile>
+  </CruiseProfiles>
+  <LoadingPoints>
+    <FuelLoadingPoint Name="Fuel" LeverArm="2.63" LeverArmLat="0.00" DefaultValue="100.00" Capacity="152.00" />
+    <LoadingPoint Name="Pilot" LeverArm="2.30" LeverArmLat="0.00" DefaultValue="75.00" />
+    <LoadingPoint Name="Front Passenger" LeverArm="2.30" LeverArmLat="0.00" DefaultValue="75.00" />
+    <LoadingPoint Name="Rear Passenger 1" LeverArm="3.25" LeverArmLat="0.00" DefaultValue="0.00" />
+    <LoadingPoint Name="Rear Passenger 2" LeverArm="3.25" LeverArmLat="0.00" DefaultValue="0.00" />
+    <LoadingPoint Name="Baggage" LeverArm="3.65" LeverArmLat="0.00" DefaultValue="0.00" />
+    <LoadingPoint Name="Oil" LeverArm="1.00" LeverArmLat="0.00" DefaultValue="0.00" />
+  </LoadingPoints>
+</Aircraft>

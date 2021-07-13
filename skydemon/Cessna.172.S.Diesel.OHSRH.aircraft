@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft AirframeType="Aeroplane" MinimumRunwayLengthMetres="600" Name="Cessna 172 S Diesel" Registration="OHSRH" HexCode="" FuelType="JetA" AlternateFuelType="None" FuelMeasurementType="Volume" FuelMeasurementVolumeType="Litres" FuelMeasurementMassType="Kilograms" TaxiFuel="8.000000" LandingFuel="5.000000" MaxFuel="168.000000" WeightBalanceType="Standard" EmptyWeight="811.000000" MaximumWeight="1054.602200" EmptyArmLon="1.12" EmptyArmLat="0.00" Type="C172" ColourMarkings="WHITE WITH GREEN STRIPES" ServiceCeiling="17000" Equipment1="LOV" Equipment2="S" OtherCommsEquipment="" OtherNavEquipment="" PbnEquipment="" FuelContingency="0.05" HoldingMinutes="45" HourlyCost="198" HourlyCostIncludesFuel="True" GlideAirspeed="68.00" GlideRatio="9.10" DefaultLevel="1500" Envelope="0.89,681.000000,0.89,885.000000,1.04,1111.000000,1.20,1111.000000,1.20,681.000000">
+  <ClimbProfile FpmSL="558.000000" FpmSC="102.000000" IndicatedAirspeed="70.000000" FuelBurnSL="30.000000" FuelBurnSC="20.000000" />
+  <DescentProfile Fpm="-500.000000" IndicatedAirspeed="100.000000" FuelBurn="13.000000" />
+  <CruiseProfiles>
+    <CruiseProfile Name="70% load" AirspeedType="True" FuelBurn="18.600000" IndicatedAirspeed="96.000000" Airspeed="96.000000">
+      <Entry Level="1000" Airspeed="96.000000" FuelBurn="18.600000" />
+      <Entry Level="2000" Airspeed="98.000000" FuelBurn="18.600000" />
+      <Entry Level="4000" Airspeed="99.000000" FuelBurn="18.600000" />
+      <Entry Level="6000" Airspeed="101.000000" FuelBurn="18.600000" />
+      <Entry Level="8000" Airspeed="102.000000" FuelBurn="18.600000" />
+      <Entry Level="10000" Airspeed="104.000000" FuelBurn="18.600000" />
+      <Entry Level="12000" Airspeed="105.000000" FuelBurn="18.600000" />
+    </CruiseProfile>
+    <CruiseProfile Name="60% load" AirspeedType="True" FuelBurn="15.800000" IndicatedAirspeed="89.000000" Airspeed="89.000000">
+      <Entry Level="1000" Airspeed="89.000000" FuelBurn="15.800000" />
+      <Entry Level="2000" Airspeed="90.000000" FuelBurn="15.800000" />
+      <Entry Level="3000" Airspeed="90.000000" FuelBurn="15.800000" />
+      <Entry Level="4000" Airspeed="92.000000" FuelBurn="15.800000" />
+      <Entry Level="6000" Airspeed="93.000000" FuelBurn="15.800000" />
+      <Entry Level="8000" Airspeed="94.000000" FuelBurn="15.800000" />
+      <Entry Level="10000" Airspeed="95.000000" FuelBurn="15.800000" />
+      <Entry Level="12000" Airspeed="96.000000" FuelBurn="15.800000" />
+    </CruiseProfile>
+  </CruiseProfiles>
+  <LoadingPoints>
+    <FuelLoadingPoint Name="Fuel" LeverArm="1.22" LeverArmLat="0.00" DefaultValue="84.00" Capacity="168.00" />
+    <LoadingPoint Name="Pilot" LeverArm="0.94" LeverArmLat="0.00" DefaultValue="95.00" />
+    <LoadingPoint Name="Front Passenger" LeverArm="0.94" LeverArmLat="0.00" DefaultValue="80.00" />
+    <LoadingPoint Name="Rear Passenger 1" LeverArm="1.85" LeverArmLat="0.00" DefaultValue="0.00" />
+    <LoadingPoint Name="Rear Passenger 2" LeverArm="1.85" LeverArmLat="0.00" DefaultValue="0.00" />
+    <LoadingPoint Name="Baggage Front" LeverArm="2.41" LeverArmLat="0.00" DefaultValue="0.00" />
+    <LoadingPoint Name="Baggage Back" LeverArm="3.12" LeverArmLat="0.00" DefaultValue="0.00" />
+  </LoadingPoints>
+</Aircraft>
